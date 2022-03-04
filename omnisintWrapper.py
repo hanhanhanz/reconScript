@@ -24,7 +24,8 @@ else:
     exit()
 exit()
 
-# res
+# usage example:
+# python3 riddleioWrapper.py github.com
 # out-14.smtp.github.com
 # out-15.smtp.github.com
 # out-16.smtp.github.com
