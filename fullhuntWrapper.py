@@ -61,7 +61,8 @@ else:
 	exit()
 	
 
-#res
+# usage example:
+# python3 riddleioWrapper.py github.com
 # cim-data-quality-qa.classroom.github.com
 # d.i98.github.com:19
 # d.i98.github.com:22
