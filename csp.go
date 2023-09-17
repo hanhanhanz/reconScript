@@ -18,16 +18,24 @@ import (
 
 /*
   from https://github.com/hanhanhanz/csp/tree/master
-	Given a list of hosts, this small utility fetches all whitelisted
-	domains from the hosts' CSPs. I use this for reconnaissance
-	purposes while bug bounty hunting.
 
-	$ cat hosts.txt
-	http://example.com/
-	$ cat hosts.txt | csp
-	example.com
-	subdomain.example.com
-	...
+USAGE
+$ cat hosts.txt
+http://example.com/
+$ cat hosts.txt | csp
+example.com
+subdomain.example.com
+...
+$ csp -h
+Usage of csp:
+  -c int
+    	set the concurrency level (default 20)
+$ cat hosts.txt | csp -c 2
+...
+
+INSTALL
+$ go get -u github.com/edoverflow/csp
+
 */
 
 // Forgive me, Father, for I have sinned.
